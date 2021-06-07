@@ -1,0 +1,23 @@
+@import '../../../App';
+
+.headerSettings{
+  font-size: $textSize;
+  margin-bottom: 10px;
+  color: $headersColor;
+}
+
+.settingsMainContainer{
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  border-radius: 15px;
+  padding: 2vh 2vw;
+}
+
+.removeAcc{
+  color: red;
+  text-decoration: underline;
+  cursor: pointer;
+  font-size: $textSize;
+  width: 230px;
+}

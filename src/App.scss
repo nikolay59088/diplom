@@ -1,0 +1,35 @@
+
+  //colors
+  $primaryColor: #5A91EF;
+  $primaryColorHover: #3971ef;
+  $secondColor: #EFEEF1;
+  $thirdColor: #404040;
+  $headersColor: #6E6D71;
+  $textColor: #000000;
+  $errColor: darkred;
+
+  //font-sizes
+  $primaryHeader: 40px;
+  $secondaryHeader: 36px;
+  $textHeader: 32px;
+  $textSize: 28px;
+  $smallSize: 20px;
+
+  @font-face {
+    font-family: 'Raleway Regular';
+    src: url('./Fonts/Raleway/Raleway-Regular.eot');
+    src: url('./Fonts/Raleway/Raleway-Regular.eot?#iefix') format('embedded-opentype'),
+    url('./Fonts/Raleway/Raleway-Regular.woff') format('woff'),
+    url('./Fonts/Raleway/Raleway-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+  }
+
+
+body{
+  font-family: 'Raleway Regular', serif ;
+  margin: 0;
+  padding: 0;
+  width: 100vw;
+  height: 100vh;
+}

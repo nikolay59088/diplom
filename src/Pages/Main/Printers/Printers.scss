@@ -1,0 +1,16 @@
+@import '../../../App';
+
+.headerContainer{
+  display: flex;
+  svg{
+    margin-left: 20px;
+    width: 30px;
+    cursor: pointer;
+    fill: $primaryColor;
+  }
+}
+
+.printersContainer{
+  display: flex;
+
+}

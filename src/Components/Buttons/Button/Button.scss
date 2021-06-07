@@ -1,0 +1,33 @@
+@import '../../../App';
+
+.whiteButton{
+  border: 2px solid $primaryColor;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  cursor: pointer;
+
+  p{
+    padding: 15px;
+    margin: 0;
+    font-size: $textSize;
+  }
+}
+.Button{
+  background-color: $primaryColor;
+  border-radius: 10px;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  p{
+    color: white;
+    padding: 15px 30px 15px 30px;
+    margin: 0;
+    font-size: $textSize;
+  }
+
+  &:hover{
+    background-color: $primaryColorHover;
+  }
+}

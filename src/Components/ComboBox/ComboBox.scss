@@ -1,0 +1,21 @@
+@import '../../App';
+
+
+.comboBox{
+  display: flex;
+  flex-direction: column;
+
+
+  label{
+    font-size: $smallSize;
+    padding-bottom: 5px;
+  }
+
+  select{
+    width: 200px;
+    padding: 5px;
+    border-radius: 13px;
+    outline: 0;
+    font-size: $smallSize;
+  }
+}

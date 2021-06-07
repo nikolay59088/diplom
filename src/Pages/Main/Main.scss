@@ -1,0 +1,27 @@
+@import '../../App';
+
+.Main{
+  display: flex;
+
+  width: 100vw;
+  height: 100vh;
+  background-color: $secondColor;
+
+  .mainContainer{
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+
+    .header{
+      min-width: auto;
+    }
+
+    .body{
+      overflow-y: auto;
+      display: flex;
+      flex-direction: column;
+      flex-grow: 1;
+      padding: 2vw 2vw 2vw 4vw
+    }
+  }
+}

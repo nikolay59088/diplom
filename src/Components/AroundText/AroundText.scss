@@ -1,0 +1,14 @@
+@import '../../App';
+
+.aroundText{
+  background-color: darkred;
+  border-radius: 15px;
+  color: white;
+  text-align: center;
+  display: inline-flex;
+  padding: 5px 10px;
+}
+
+.blue{
+  background-color: $primaryColor;
+}

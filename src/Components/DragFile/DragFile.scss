@@ -1,0 +1,26 @@
+@import '../../App';
+
+.dragFile{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 19%;
+  height: 70%;
+
+
+  .dragFileImg{
+    border-radius: 5px;
+    width: 80%;
+    min-height: 80%;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: $textSize;
+  }
+
+  p{
+    margin-top: 5px;
+    font-size: 14px !important;
+  }
+}

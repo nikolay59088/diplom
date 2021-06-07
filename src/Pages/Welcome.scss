@@ -1,0 +1,61 @@
+@import '../App';
+
+.header{
+  color: $primaryColor;
+  font-size: $secondaryHeader;
+  display: flex;
+  min-width: 100vw;
+  height: 10vh;
+  align-content: center;
+  justify-content: flex-end;
+  .headerMenu{
+    display: flex;
+    list-style-type: none;
+    align-items: center;
+    margin-right: 50px;
+    li{
+      display: inline;
+      cursor: pointer;
+      padding: 0;
+      margin-right: 50px;
+      font-size: $textSize;
+    }
+  }
+
+  .headerButton{
+    display: flex;
+    align-items: center;
+    padding-right: 3vw;
+
+    .whiteButton{
+      min-width: 7vw;
+      &:hover{
+        background-color: $primaryColor;
+        color: white;
+      }
+    }
+  }
+}
+
+.welcomeBody{
+  height: 90vh;
+  width: 100vw;
+  background-image: url("../Images/Welcome.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  .welcomeText{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 5vw;
+    h1{
+      margin: 0;
+      font-size: 60px;
+    }
+    p{
+      font-size: 48px;
+    }
+  }
+}

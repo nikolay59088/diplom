@@ -1,0 +1,34 @@
+@import '../../../App';
+
+
+.authForm{
+  .textField{
+    margin-bottom: 15px;
+  }
+
+  .containerAuth{
+    padding-top: 15px;
+    display: flex;
+    width: 100%;
+    height: 7vh;
+
+    .containerRegister{
+
+      p{
+        margin: 0;
+        color: black;
+
+      }
+      .link{
+        color: $primaryColor;
+        cursor: pointer;
+      }
+
+    }
+    .Button{
+      width: 30%;
+      margin-left: auto;
+    }
+
+  }
+}

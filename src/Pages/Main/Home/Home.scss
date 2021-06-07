@@ -1,0 +1,12 @@
+@import '../../../App';
+
+
+.body{
+
+  .bodyHeader{
+    font-size: $primaryHeader;
+    color: $headersColor;
+    margin-bottom: 10px;
+    margin-top: 10px;
+  }
+}

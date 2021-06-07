@@ -1,0 +1,21 @@
+@import '../../App';
+
+.textField{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+
+  label{
+    font-size: $textSize;
+    color: black;
+  }
+
+  input{
+    border: 2px solid $primaryColor;
+    border-radius: 13px;
+    font-size: $textSize;
+    padding: 10px;
+    outline: none;
+  }
+
+}

@@ -1,0 +1,49 @@
+@import '../../../App';
+
+
+.orderUp{
+  display: flex;
+  justify-content: space-between;
+
+  .newOrder{
+    margin-left: auto;
+    margin-right: 1vw;
+    display: flex;
+    height: 75%;
+
+    p{
+      font-size:  $smallSize;
+    }
+  }
+
+  .calendar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 5px;
+    min-width: 15vw;
+    border-radius: 15px;
+    position: relative;
+    max-height: 3vh;
+
+    #chooseDate{
+      margin: 0;
+      width: 13vw;
+      text-align: center;
+      font-size:$smallSize ;
+    }
+
+    svg{
+      width: 2vw;
+      max-height: 3vh;
+      margin-right: 1vw;
+      cursor: pointer;
+    }
+
+    .react-calendar{
+      position: absolute;
+      right: 0;
+      top: 60px;
+    }
+  }
+}

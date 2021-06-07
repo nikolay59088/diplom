@@ -1,0 +1,86 @@
+@import '../../../App';
+
+.profileInfo{
+  display: flex;
+
+  .profileLogo{
+    border-radius: 15px;
+    width: 30%;
+  }
+
+  .infoContainer{
+    display: flex;
+    flex-direction: column;
+    margin-left: 2vw;
+
+    .editInfo{
+      display: flex;
+      margin-bottom: 2vh;
+      p{
+        font-size: $textSize;
+        margin: 0;
+      }
+      svg{
+        margin-left: .5vw;
+        cursor: pointer;
+      }
+    }
+    .infoDetail{
+      border-radius: 15px;
+      width: 50vw;
+      height: 13vh;
+      background-color: white;
+      padding: 2vh 1.5vw;
+
+      p{
+        margin: 0;
+        font-size: $smallSize;
+        font-weight: bolder;
+        color: black;
+      }
+
+      .headSettings{
+        color: $headersColor;
+        margin: 5px 0;
+        font-weight: normal;
+      }
+    }
+  }
+}
+
+
+.costContainer{
+  display: flex;
+  flex-direction: column;
+  padding-top: 2vh;
+
+  .editInfo{
+    display: flex;
+    align-items: center;
+
+    p{
+      font-size: $textSize;
+      margin: 0;
+      color: $headersColor;
+    }
+
+    svg{
+      cursor: pointer;
+      margin-left: .5vw;
+    }
+
+  }
+  .blackCost{
+    p{
+      color: $headersColor;
+      font-size: $smallSize;
+      margin: 5px 0;
+    }
+    .block{
+      display: flex;
+      .costBlock:not(.costBlock:first-child){
+        margin-left: 2vw;
+      }
+    }
+  }
+}

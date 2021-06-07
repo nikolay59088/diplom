@@ -1,0 +1,39 @@
+@import "../../../App";
+
+
+  .newOrder{
+
+    .textField{
+      width: 30%;
+      input{
+        font-size: $smallSize;
+      }
+    }
+
+    .comboBox{
+      select{
+        width: 30%;
+        padding: 10px;
+      }
+    }
+
+    .skid, .sum{
+      font-size: $smallSize;
+    }
+    .calendar{
+      background-color: transparent;
+
+
+      input{
+        width: 15%;
+        font-size: $smallSize;
+      }
+    }
+
+    .orderButtons{
+      width: 40%;
+      display: flex;
+      justify-content: space-between;
+    }
+  }
+

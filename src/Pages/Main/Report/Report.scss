@@ -1,0 +1,16 @@
+
+
+.reportBody{
+  background-color: white;
+  border-radius: 15px;
+  padding: 15px;
+
+  .period{
+    display: flex;
+    margin-bottom: 15px;
+
+    .calendar:last-child{
+      margin-left: 15px;
+    }
+  }
+}

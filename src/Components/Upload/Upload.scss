@@ -1,0 +1,27 @@
+@import '../../App';
+
+.uploadContainer{
+
+  p{
+    font-size: $smallSize;
+    margin-bottom: 0;
+    margin-top: 10px;
+  }
+
+  .upload-zone{
+    padding: 1%;
+    width: 30vw;
+    height: 15vh;
+    background-color: rgba(0, 0, 0, .1);
+    border-radius: 15px;
+    border: 1px dashed;
+    display: flex;
+    cursor: pointer;
+    align-items: center;
+    p{
+      font-size: $textSize;
+      width: 100%;
+      text-align: center;
+    }
+  }
+}

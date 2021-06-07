@@ -1,0 +1,47 @@
+@import '../../App';
+
+
+.backMessage{
+  position: absolute;
+  width: 100vw;
+  height: 100vh;
+  flex: 1;
+  display: none;
+  justify-content: center;
+  align-items: flex-start;
+
+
+  .messageContainer{
+    display: inline-flex;
+    flex-direction: column;
+    margin-top: 10vh;
+    width: 50vw;
+
+    background-color: white;
+    border-radius: 13px;
+    box-shadow: 0 5px 7px rgba(0,0,0,.5);
+
+    .headerMess{
+      min-height: 30%;
+      font-size: $textHeader;
+      border-bottom: 1px solid black;
+      p{
+        padding: 15px;
+        margin: 0;
+      }
+    }
+
+    .textMess{
+      p{
+        font-size: $smallSize;
+        padding: 15px;
+        margin: 0;
+      }
+    }
+
+    .messButton{
+      margin: 25px 15px 15px auto;
+      height: 50px;
+    }
+  }
+}

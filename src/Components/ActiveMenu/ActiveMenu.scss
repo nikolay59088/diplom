@@ -1,0 +1,96 @@
+@import '../../App';
+
+.activeMenu{
+  cursor: pointer;
+  border-radius: 35px 0 0 35px;
+  height: 6vh;
+  background-color: $secondColor;
+  padding-left: 10%;
+  position: relative;
+
+
+  .upperBorder{
+    position: absolute;
+    margin-top: -40px;
+    right: 0;
+    top: 0;
+    circle{
+      fill: $primaryColor;
+    }
+    rect{
+      fill: $secondColor;
+    }
+  }
+
+  .bottomBorder{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    margin-bottom: -40px;
+
+    circle{
+      fill: $primaryColor;
+    }
+    rect{
+      fill: $secondColor;
+    }
+  }
+
+  .contentMenu{
+    height: 100%;
+    display: flex;
+    padding-left: 5%;
+    align-items: center;
+    svg{
+      fill: black;
+      width: 15%;
+      padding-right: 20px;
+      z-index: 1;
+    }
+    p{
+      font-size: $textSize;
+      color: black;
+      z-index: 1;
+    }
+  }
+
+
+}
+
+.notActiveMenu{
+
+  cursor: pointer;
+  border-radius: 25px 0 0 25px;
+  height: 6vh;
+  padding-left: 10%;
+  position: relative;
+
+  .contentMenu{
+    padding-left: 5%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    svg{
+      width: 15%;
+      padding-right: 20px;
+      fill: $secondColor;
+      z-index: 1;
+    }
+    p{
+      font-size: $textSize;
+      color: white;
+      margin: 0;
+      z-index: 1;
+    }
+  }
+}
+
+.only{
+  .contentMenu{
+    justify-content: center;
+    svg{
+      width: 60%;
+      padding-right: 10px;
+    }
+  }
+}

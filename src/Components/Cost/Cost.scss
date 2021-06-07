@@ -1,0 +1,32 @@
+@import '../../App';
+
+
+.costBlock{
+  display: flex;
+  background-color: white;
+  border-radius: 15px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px 10px;
+  min-width: 20vw;
+  margin-left: 0;
+
+  .nameBlock{
+    padding-top: 0;
+    font-size: $textSize !important;
+    padding-bottom: 5px;
+  }
+
+  .costRow{
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+
+    p{
+      color: black;
+      font-size: $smallSize;
+    }
+
+  }
+}
